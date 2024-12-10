@@ -1,0 +1,25 @@
+Power BI Project
+
+Objective:
+Developed a dashboard to analyze survey data and derive meaningful insights using Power BI.  
+Process Overview:  
+
+1. Data Preparation and Transformation:  
+      - Used Power Query to clean and transform the dataset:  
+     - Removed unnecessary columns such as "Browser to Reference."  
+     - Simplified columns Q1, Q5, Q4, and Q11 by splitting values using a delimiter `("(")` to separate "Other" options into a new column.  
+     - For Q3 (salary ranges), calculated average values for simplification.  
+
+2. Dashboard Creation  
+   - Designed a title using a text box: "Data Professional Survey Breakdown."
+   - Used cards to display key metrics:  
+     - Total count of survey takers.  
+     - Average age of survey participants.  
+   - Built visualizations to analyze and present data:  
+     - Stacked bar chart to show the average salary by profession.  
+     - Bar chart to display the most popular programming languages.  
+     - Tree map to visualize the distribution of respondents by country and how salary varies across countries.  
+     - Gauge charts to represent:  
+       - Percentage of respondents happy with their job.  
+       - Percentage satisfied with their salary.  
+     - Donut chart to compare the average salary between male and female respondents.  
